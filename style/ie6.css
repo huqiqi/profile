@@ -1,0 +1,12 @@
+﻿
+body {
+	behavior:url('js/csshover.htc');
+}
+
+#contant-box {
+	left:70px;
+}
+
+img, div, input, a, p { 
+	behavior: url("js/iepngfix.htc");
+}

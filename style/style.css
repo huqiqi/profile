@@ -1,0 +1,356 @@
+﻿
+body {
+	background-color:#A3A3A3;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#8a8a8a;
+	direction:ltr;
+}
+
+.contain {
+	margin:0 auto;
+	height:482px;
+	width:889px;
+}
+
+#Copyright {
+	position:absolute;
+	right:130px;
+	top:95px;
+	color:#D8D8D8;
+	height:30px;
+}
+
+#Copyright .span1 {
+	display:block;
+	font-size:1.2em;
+}
+
+#Copyright .span1:hover {
+	color:#C1C1C1;
+	cursor:pointer;
+}
+
+#Copyright .span2 {
+	display:none;
+	font-size:0.8em;
+	cursor:pointer;
+}
+
+#Copyright .span2 a {
+	color:#3F3F3F;
+}
+
+#Copyright .span2 a:hover {
+	color:#8D8D8D;
+}
+
+a {
+	text-decoration:none;
+	color:#579bc6;
+}
+
+a:hover {
+	color:#447fa4;
+}
+
+#background-box {
+	position:relative;
+	background:transparent url('../images/background.jpg') no-repeat scroll;
+	height:482px;
+	max-height:482px;
+	width:889px;
+}
+
+#hole {
+	background:transparent url('../images/bottom.jpg') no-repeat scroll;
+	height:118px;
+	width:889px;
+}
+
+#contant-box {
+	position:relative;
+	background:transparent url('../images/content-bg.png') no-repeat scroll;
+	height:361px;
+	width:669px;
+	top:87px;
+	left:72px;
+	overflow:hidden;
+}
+
+#nav-bar {
+	position:relative;
+	padding-top:8px;
+	background:transparent url('../images/nav-bar.png') no-repeat scroll;
+	height:184px;
+	width:40px;
+	float:left;
+	left:64px;
+	top:180px;
+}
+
+#nav-bar p {
+	margin:0 auto 9px;
+	display:block;
+	height:27px;
+	width:28px;
+	cursor:pointer;
+}
+
+#nav-bar p:hover {
+	background-position:left;
+}
+
+#home-button {
+	background:transparent url('../images/home.png') no-repeat scroll right;
+}
+
+#about-button {
+	background:transparent url('../images/about.png') no-repeat scroll right;
+}
+
+#portfolio-button {
+	background:transparent url('../images/portfolio.png') no-repeat scroll right;
+}
+
+#social-button {
+	background:transparent url('../images/social.png') no-repeat scroll right;
+}
+
+#contact-button {
+	background:transparent url('../images/contact.png') no-repeat scroll right;
+}
+
+#background-box .logo {
+	position:relative;
+	/*background:transparent url('../images/top-logo.png') no-repeat scroll;*/
+	height:34px;
+	width:300px;
+	left:130px;
+	top:80px;
+}
+
+#home, #about, #portfolio, #social, #contact {
+	position:absolute;
+	height:301px;
+	width:609px;
+	top:30px;
+	right:30px;
+	display:none;
+}
+
+#contant-box div h1 {
+	display:block;
+	font-size:1.2em;
+	border-bottom:2px #b5b5b5 dotted;
+	height:30px;
+	width:300px;
+	margin-bottom:20px;
+}
+
+#contant-box #home {
+	display:block;
+}
+
+#contant-box #about {
+	display:none;
+}
+
+#contant-box #portfolio {
+	display:none;
+}
+
+#contant-box #social {
+	display:none;
+}
+
+#contant-box #contact {
+	display:none;
+}
+
+#contant-box #home p {
+	text-align:center;
+	font-size:1.2em;
+	margin:15px;
+	line-height:30px;
+}
+
+#contant-box #about img {
+	float:left;
+	margin:0 15px 0 0;
+	border:3px #908f8f solid;
+	height:138px;
+	width:138px;
+}
+
+#contant-box #about p {
+	font-size:1.07em;
+}
+
+#contant-box #about ul {
+	list-style:disc inside none;
+}
+
+#contant-box #portfolio img {
+	margin:6px;
+	border:3px #908f8f solid;
+	height:113px;
+	width:111px;
+}
+
+#contant-box #portfolio ul {
+	position:absolute;
+	right:25px;
+	top:68px;
+}
+
+#contant-box #portfolio ul li {
+	margin-bottom:10px;
+	padding:10px;
+}
+
+#contant-box #portfolio ul li a {
+	background-color:#D8D8D8;
+	border:2px #ADADAD solid;
+	padding:7px;
+	color:#8a8a8a;
+}
+
+#contant-box #portfolio ul li a:hover {
+	background-color:#ADADAD;
+	color:#8a8a8a;
+}
+
+#contant-box #social div {
+	margin-top:30px;
+}
+
+#contant-box #social .social-icons {
+	margin:0 auto;
+	width:430px;
+}
+
+#contant-box #social div.left-social {
+	margin-right:50px;
+	margin-top:30px;
+	
+}
+
+#contant-box #social .right-social {
+	float:right;
+}
+
+#contant-box #social .left-social {
+	float:left;
+}
+
+#contant-box #social p {
+	padding-left:58px;
+	padding-bottom:10px;
+	font-size:1.2em;
+	color:#676767;
+	margin-bottom:25px;
+	height:inherit;
+}
+
+#contant-box #social p a {
+	color:#676767;
+}
+
+#contant-box #social p a:hover {
+	text-decoration:underline;
+}
+
+#contant-box #social p span {
+	font-size:0.8em;
+	color:#8a8a8a;
+	text-decoration:none;
+}
+
+#contant-box #social img {
+	float:left;
+	height:48px;
+	width:48px;
+}
+
+.facebook { background:transparent url('../images/facebook.gif') no-repeat scroll left; }
+.twitter { background:transparent url('../images/twitter.gif') no-repeat scroll left; }
+.myspace { background:transparent url('../images/myspace.gif') no-repeat scroll left; }
+
+.delicious { background:transparent url('../images/delicious.gif') no-repeat scroll left; }
+.digg { background:transparent url('../images/digg.gif') no-repeat scroll left; }
+.deviantart { background:transparent url('../images/deviantart.gif') no-repeat scroll left; }
+
+#contant-box #contact input,#contant-box #contact textarea {
+	background-color:#eeeeee;
+	border:2px #b7b7b7 solid;
+	display:block;
+	height:20px;
+	width:260px;
+	margin-bottom:18px;
+}
+
+#contant-box #contact input:focus, #contant-box #contact textarea:focus {
+	background-color:#E4E3E3;
+}
+
+#contant-box #contact .text {
+	float:left;
+	line-height:45px;
+}
+
+#contant-box #contact .text div {
+	display:none;
+}
+
+#contant-box #contact .alerts {
+	margin-left:160px;
+	color:#579BC6;
+}
+
+#contant-box #contact .text-box {
+	padding-top:12px;
+	margin-left:80px;
+}
+
+#contant-box #contact #text {
+	height:100px;
+	width:525px;
+}
+
+#contant-box #contact #sendmail {
+	/*position:absolute;
+	bottom:-18px;
+	left:90px;*/
+	width:132px;
+	height:28px;
+	border:none;
+	background-color:transparent;
+}
+#contant-box #contact #alertmsg {
+	display:none;
+	color:#579BC6
+}
+
+#contant-box #contact .back { 
+	color:#8a8a8a;
+}
+
+#contant-box #contact .back:hover { 
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+#contant-box #contact form {
+	width:100%;
+	float:right;
+}
+
+#portfolio .Portfolio {
+	display:none;
+}
+
+#portfolio div.pro1 {
+	display:block;
+    bottom:0px
+}
+
